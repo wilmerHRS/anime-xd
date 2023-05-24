@@ -1,0 +1,120 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.SectionAnime {
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    padding-top: 1.2rem;
+}
+
+#sectionTitle1 {
+    font-size: 2rem;
+    font-weight: 600;
+    padding-right: .8rem;
+    padding-left: .8rem;
+}
+
+#sectionTitle2 {
+    width: 7rem;
+    font-size: 1.2rem;
+    padding: .5rem;
+    background-color: #344b9d;
+    border-radius: .5rem;
+    color: white;
+    font-weight: 500;
+}
+
+/* comboBox ------------- */
+.btns {
+    padding-bottom: 30px;
+}
+
+.comboBox1,
+.comboBox2,
+.comboBox3,
+.comboBox4 {
+    text-align: center;
+    background-color: #344b9d;
+    border-radius: .4rem;
+    cursor: pointer;
+    padding-top: 5px;
+    color: white;
+    box-shadow: .2rem .1rem .3rem 0 rgba(0, 0, 0, 0.261);
+}
+
+.dropdown-menu label,
+.dropdown-menu li {
+    padding-left: 10px;
+    color: white;
+}
+
+
+.comboBox1:hover,
+.comboBox2:hover,
+.comboBox3:hover,
+.comboBox4:hover {
+    background-color: #344b9d;
+}
+
+.imgAnime {
+    border-radius: 9px 9px 0 0;
+    padding-bottom: 15PX;
+}
+
+
+/* Cards --------------- */
+.CardEdit,
+.CardEdit1 {
+    color: white;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 500;
+    background-color: #344b9d;
+    border-radius: 10px;
+    box-shadow: .2rem .1rem .3rem 0 rgba(0, 0, 0, 0.261);
+}
+
+.contPag {
+    padding-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    cursor: pointer;
+}
+/* Hover Cards */
+
+  .CardEdit1:hover .popover{
+    opacity: 1;
+    transition: .5s;
+  }
+  
+  .popover{
+    opacity: 0;
+    width: 300px;
+    background-color: #3b4348ea;;
+    position: absolute;
+    left: 215px;
+    top: 0px;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: auto;
+    transition: .5s;
+  }
+
+
+.btnVerAnime{
+    width: 150px;
+    height: 30px;
+    border: none;
+    background-color: #01bcf3;
+    color: white;
+    border-radius: 20px;
+    font-weight: 600;
+    text-align: center;
+}

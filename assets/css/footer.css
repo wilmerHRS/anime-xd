@@ -1,0 +1,59 @@
+:root{
+    --primary-color: #1C2366;
+    --secondary-color: #313b91; 
+    --title-color: #FDFF8C;
+    --text-cond: #C5CAFF;
+    --term-cond-bg: #5D69D7;
+    --active-color: #69FF78;
+    --white: #fff;
+    --hover-white: rgba(255, 255, 255,.1);
+    --social-color: #7078B9;
+}
+
+.footer{
+  background-color: var(--primary-color);
+  min-height: 274px;
+  font-family: 'Poppins',sans-serif;
+}
+
+.footer-row{
+  max-width: 1366px;
+}
+
+.footer-col h2{
+  text-align: center;
+  font-weight: 300;
+  font-size: 28px;
+}
+.footer-col ul{
+  padding: 0;
+}
+.footer-col ul li{
+  list-style: none;
+  text-align: center;
+  font-weight: 300;
+  font-size: 19px;
+}
+
+.social .icons a{
+  font-size: 65px;
+  color: var(--social-color);
+}
+.social h2{
+  font-family: 'Poppins',sans-serif;
+  text-align: center;
+  font-weight: 300;
+  font-size: 19px;
+  color: var(--social-color);
+}
+
+.term-cond-btn{
+  font-family: 'Poppins',sans-serif;
+  font-weight: 300;
+  font-size: 17px;
+  background-color: var(--term-cond-bg);
+  color: var(--text-cond);
+}
+.btn:hover{
+  color: var(--white);
+}

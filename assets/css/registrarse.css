@@ -1,0 +1,150 @@
+html {
+   box-sizing: border-box;
+   /* 1REM =10px hack */
+}
+
+
+*,
+*::before,
+*:after {
+   box-sizing: inherit;
+}
+
+body {
+   margin: 0;
+   padding: 0;
+}
+
+.image-x {
+   max-width: 100%;
+   display: block;
+   background-position: center;
+   padding: 3rem;
+}
+
+h3 {
+   color: #fff;
+   background-color: #1C2366;
+   padding: 0.7rem;
+}
+
+.enlace {
+   display: block;
+   text-decoration: none;
+   font-size: 15px;
+   text-align: center;
+   /* position: relative;
+   bottom: 48px;
+   left: 10px; */
+}
+
+.bor-x {
+   border: 2px solid #000;
+   border-radius: 0.3rem;
+   margin: 6rem;
+   padding: 0;
+   width: 67%;
+   height: 8%;
+   margin-left: 13rem;
+}
+
+.btn-nv {
+   display: block;
+   background-color: #FDFF8C;
+   color: rgb(0, 0, 0);
+   border: 1px solid #000;
+   border-radius: 0.3rem;
+   /* width: 8rem; */
+   font-weight: 500;
+   margin: auto 30px auto auto;
+   padding: 10px 40px;
+}
+
+.btn-nv:hover {
+   background-color: #1C2366;
+   color: #fff;
+   transition: .2s;
+}
+
+
+.pfv {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   padding: 0.8rem;
+   position: relative;
+   top: 3rem;
+   left: 3rem;
+}
+
+
+
+.size-card {
+   width: 30rem;
+}
+
+.caja-form {
+   margin: 100px auto;
+   padding: 70px 0;
+   padding-top: 0;
+   border: 2px solid #000;
+   border-radius: 12px;
+}
+
+
+.margin-top {
+   margin-top: 10px;
+}
+.margin-top button{
+   margin-top: 80px;
+
+}
+
+
+
+.padding-left label{
+   padding-left: 20px;
+   display: block;
+   font-weight: 500;
+}
+
+.title {
+   background-color: #1C2366;
+   color: #fff;
+   padding: 14px 20px 20px 20px;
+   margin-bottom: 50px;
+   border-radius: 10px 10px 0 0;
+}
+
+@media only screen and (max-width: 768px) {
+   .col-xs-12 .size-card {
+      width: 80%;
+   }
+
+   .title {
+      margin-bottom: 20px;
+   }
+}
+
+@media only screen and (max-width: 900px) {
+   div .size-card {
+      width: 18.5rem;
+   }
+}
+
+@media only screen and (max-width: 1200px) {
+   .size-card {
+      width: 21rem;
+   }
+
+   .margin-top {
+      margin-top: 40px;
+   }
+
+   
+}
+
+@media only screen and (max-width: 600px) {
+   .bor-x {
+      margin: 1rem 0rem;
+   }
+}

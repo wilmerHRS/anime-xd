@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+    font-family: "Poppins",sans-serif;
+}
+.formulario{
+    padding: 20px;
+    border: 2px solid #1C2366;
+    border-radius: 20px;
+}
+.inicio{
+    font-size: 35px;
+    font-weight: 600;
+}
+.form-control{
+    border-style: none;
+    border: 2px solid #1C2366;
+    border-radius: 5px;
+    outline: none;
+    box-shadow: none;
+}
+.form-control:focus{
+    outline: none;
+    box-shadow: none;
+    background: none;
+}
+.isesion{
+    padding-left: 72px;
+    padding-right: 72px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background: #01BCF3;
+    color: #fff;
+    font-weight: 600;
+    font-size: 19px;
+    max-width: 300px;
+}
+.face{
+    font-size: 18px;
+    background: #3B5998;
+    color: #fff;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: 600;
+    max-width: 300px;
+}
+.olvidar{
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+}
+.registro{
+    text-decoration: none;
+    color: #01BCF3;
+    font-size: 16px;
+    font-weight: 400;
+}

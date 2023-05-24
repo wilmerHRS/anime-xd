@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anime XD | Catálogo</title>
+
+    <!-- !Boostram -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- !Ajustes de css -->
+    <link rel="stylesheet" href="./assets/css/nav.css" />
+    <link rel="stylesheet" href="./assets/css/footer.css" />
+    <link rel="stylesheet" href="./assets/css/catalogo.css" />
+    <!-- !Boxicons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- !Fuestes a usar: Hind, Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- * Navbar bostram -->
+    <nav class="navbar navbar-expand-lg navbar-dark p-0">
+      <div class="container-fluid navbar-container p-0">
+        <img
+          class="lolicon"
+          src="https://res.cloudinary.com/furakam/image/upload/v1654100006/Landfill_Images/LoliNav_kp8nea.svg"
+          alt="LoliNav"
+        />
+        <a class="navbar-brand ms-3 mx-sm-4 nb-title" href="#">Anime_XD</a>
+        <button
+          class="navbar-toggler me-3 me-lg-0"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse p-3 p-lg-0"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="./index.html"
+                >Inicio</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="./catalogo.html">Catalogo</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./horario.html">Horario</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Cuenta
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="./login.html"
+                    >Iniciar Sesión</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./registrarse.html"
+                    >Registrar</a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-light me-lg-4" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- * Contenido de la página -->
+    <div class="container">
+      <div class="SectionAnime">
+        <p id="sectionTitle1">Animes</p>
+        <p id="sectionTitle2">Directorio</p>
+      </div>
+
+      <div class="container btns">
+        <div class="row g-3 Fila">
+          <div class="col-6 col-md-3 col-lg-2">
+            <div class="dropdown">
+              <button
+                class="btn btn-secondary dropdown-toggle comboBox1"
+                type="button"
+                id="dropdownMenuButton1"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Genero: Todos
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <li><input type="checkbox" /><label for="">Acción</label></li>
+                <li><input type="checkbox" /><label for="">Drama</label></li>
+                <li><input type="checkbox" /><label for="">Comedia</label></li>
+                <li><input type="checkbox" /><label for="">Aventura</label></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-6 col-md-3 col-lg-2">
+            <div class="dropdown">
+              <button
+                class="btn btn-secondary dropdown-toggle comboBox2"
+                type="button"
+                id="dropdownMenuButton1"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Año: Todos
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <li><input type="checkbox" /><label for="">1992</label></li>
+                <li><input type="checkbox" /><label for="">1998</label></li>
+                <li><input type="checkbox" /><label for="">2001</label></li>
+                <li><input type="checkbox" /><label for="">2008</label></li>
+                <li><input type="checkbox" /><label for="">2013</label></li>
+                <li><input type="checkbox" /><label for="">2018</label></li>
+                <li><input type="checkbox" /><label for="">2022</label></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-6 col-md-3 col-lg-2">
+            <div class="dropdown">
+              <button
+                class="btn btn-secondary dropdown-toggle comboBox1"
+                type="button"
+                id="dropdownMenuButton1"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Tipo: Todos
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <li><input type="checkbox" /><label for="">TV</label></li>
+                <li><input type="checkbox" /><label for="">Pelicula</label></li>
+                <li><input type="checkbox" /><label for="">Especial</label></li>
+                <li><input type="checkbox" /><label for="">OVA</label></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-6 col-md-3 col-lg-2">
+            <div class="dropdown">
+              <button
+                class="btn btn-secondary dropdown-toggle comboBox1"
+                type="button"
+                id="dropdownMenuButton1"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Genero: Todos
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <li><input type="checkbox" /><label for="">Inglés</label></li>
+                <li><input type="checkbox" /><label for="">Español</label></li>
+                <li><input type="checkbox" /><label for="">Japonés</label></li>
+                <li><input type="checkbox" /><label for="">Coreano</label></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row g-5">
+          <div class="col-6 col-md-4 col-lg-3">
+            <div class="card border-0 CardEdit1">
+              <img src="assets/img/catalogo/Img1.jpg" alt="" class="imgAnime" />
+              <p>Name Anime</p>
+
+              <div class="popover">
+                <p class="titleHover">Anime X - Japonés</p>
+                <p>
+                  Anime <i class="bx bxs-star" style="color: #fbeb1f"></i> 4.5
+                </p>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
+                  magnam maioresc quos autem voluptatum put am! Labore.
+                </p>
+                <button class="btnVerAnime">VER ANIME</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6 col-md-4 col-lg-3">
+            <div class="card border-0 CardEdit">
+              <img src="assets/img/catalogo/Img2.jpg" alt="" class="imgAnime" />
+              <p>Name Anime</p>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-3">
+            <div class="card border-0 CardEdit">
+              <img src="assets/img/catalogo/Img3.jpg" alt="" class="imgAnime" />
+              <p>Name Anime</p>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-3">
+            <div class="card border-0 CardEdit">
+              <img src="assets/img/catalogo/Img4.jpg" alt="" class="imgAnime" />
+              <p>Name Anime</p>
+            </div>
+          </div>
+
+          <div class="col-6 col-md-4 col-lg-3">
+            <div class="card border-0 CardEdit">
+              <img src="assets/img/catalogo/Img5.jpg" alt="" class="imgAnime" />
+              <p>Name Anime</p>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-3">
+            <div class="card border-0 CardEdit">
+              <img src="assets/img/catalogo/Img6.jpg" alt="" class="imgAnime" />
+              <p>Name Anime</p>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-3">
+            <div class="card border-0 CardEdit">
+              <img src="assets/img/catalogo/Img7.jpg" alt="" class="imgAnime" />
+              <p>Name Anime</p>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-3">
+            <div class="card border-0 CardEdit">
+              <img src="assets/img/catalogo/Img8.jpg" alt="" class="imgAnime" />
+              <p>Name Anime</p>
+            </div>
+          </div>
+
+          <div class="col-6 col-md-4 col-lg-3">
+            <div class="card border-0 CardEdit">
+              <img src="assets/img/catalogo/Img9.jpg" alt="" class="imgAnime" />
+              <p>Name Anime</p>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-3">
+            <div class="card border-0 CardEdit">
+              <img
+                src="assets/img/catalogo/Img10.jpg"
+                alt=""
+                class="imgAnime"
+              />
+              <p>Name Anime</p>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-3">
+            <div class="card border-0 CardEdit">
+              <img
+                src="assets/img/catalogo/Img11.jpg"
+                alt=""
+                class="imgAnime"
+              />
+              <p>Name Anime</p>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-3">
+            <div class="card border-0 CardEdit">
+              <img
+                src="assets/img/catalogo/Img12.jpg"
+                alt=""
+                class="imgAnime"
+              />
+              <p>Name Anime</p>
+            </div>
+          </div>
+
+          <div class="col-6 col-md-4 col-lg-3">
+            <div class="card border-0 CardEdit">
+              <img
+                src="assets/img/catalogo/Img13.jpg"
+                alt=""
+                class="imgAnime"
+              />
+              <p>Name Anime</p>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-3">
+            <div class="card border-0 CardEdit">
+              <img
+                src="assets/img/catalogo/Img14.jpg"
+                alt=""
+                class="imgAnime"
+              />
+              <p>Name Anime</p>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-3">
+            <div class="card border-0 CardEdit">
+              <img
+                src="assets/img/catalogo/Img15.jpg"
+                alt=""
+                class="imgAnime"
+              />
+              <p>Name Anime</p>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-3">
+            <div class="card border-0 CardEdit">
+              <img
+                src="assets/img/catalogo/Img16.jpg"
+                alt=""
+                class="imgAnime"
+              />
+              <p>Name Anime</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="contPag">
+        <nav aria-label="Page navigation example">
+          <ul class="pagination">
+            <li class="page-item">
+              <a class="page-link border-0" href="#" aria-label="Previous">
+                <span aria-hidden="true">&laquo;</span>
+              </a>
+            </li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item"><a class="page-link" href="#">4</a></li>
+            <li class="page-item"><a class="page-link" href="#">5</a></li>
+            <li class="page-item"><a class="page-link" href="#">6</a></li>
+            <li class="page-item"><a class="page-link" href="#">7</a></li>
+            <li class="page-item">
+              <a class="page-link border-0" href="#" aria-label="Next">
+                <span aria-hidden="true">&raquo;</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <!-- * Footer -->
+    <footer
+      class="footer d-flex justify-content-center align-items-center w-100"
+    >
+      <div class="row w-100 footer-row g-5 g-lg-0 py-lg-0 py-4">
+        <div
+          class="col-lg-3 d-flex flex-column text-white justify-content-center footer-col"
+        >
+          <h2>Integrantes</h2>
+          <ul>
+            <li>Wilmer Reluz Salvador</li>
+            <li>Frank Villachica Gaspar</li>
+          </ul>
+        </div>
+        <div class="col-lg-6 d-flex align-items-center">
+          <div
+            class="w-100 gap-4 social d-flex flex-column align-items-center g-5"
+          >
+            <div class="icons d-flex gap-4">
+              <a href="#" class="bx bxl-discord-alt"></a>
+              <a href="#" class="bx bxl-facebook-square"></a>
+              <a href="#" class="bx bxl-twitter"></a>
+            </div>
+            <h2>Siguenos en nuestras redes sociales!!!</h2>
+          </div>
+        </div>
+        <div class="col-lg-3 d-flex pe-lg-5">
+          <div
+            class="d-flex flex-column gap-3 align-items-center my-auto w-100 mx-5 mx-lg-0"
+          >
+            <button class="term-cond-btn btn w-100">
+              Términos y condiciones
+            </button>
+            <button class="term-cond-btn btn w-100">
+              Políticas de privacidad
+            </button>
+            <button class="term-cond-btn btn w-100">
+              Sobre Lolis paradise
+            </button>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
